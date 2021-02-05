@@ -15,7 +15,7 @@ export class ApiService {
   formImage: FormGroup;
   currency: any;
 
-  public url = 'http://192.168.43.68:8090/api';
+  public url = 'http://10.0.0.5:8090/api';
   public url1 = 'http://dev.sdkgames.com/flashfood/web';
 
   constructor(

@@ -99,11 +99,6 @@ export const routes: Routes = [
     component: ProfileNormalUserComponent
   },
   {
-    path: 'trips',
-    loadChildren: () => import('./back-office/users/trips/trips.module')
-      .then(mod => mod.TripsModule)
-  },
-  {
     path: 'requests',
     component: RequestsComponent
   },

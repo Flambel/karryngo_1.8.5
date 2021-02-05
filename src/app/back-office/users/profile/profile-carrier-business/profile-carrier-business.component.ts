@@ -68,7 +68,7 @@ export class ProfileCarrierBusinessComponent implements OnInit {
   userProfileImg: string = '../../../../assets/img/user_image.png';
   userName: string = 'Flambel55';
   userEmail: string = 'flambel55@gmail.com';
-  userLabel: string = 'if we are satisfied with our present, we have no future.';
+  userLabel: string = 'Trust me and your parcels will be delivered on time.';
 
   message: string = '\<b>Error\</b>\<br>Someone was not going. This option is not available.';
 
