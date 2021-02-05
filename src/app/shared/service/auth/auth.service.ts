@@ -114,7 +114,6 @@ export class AuthService {
             if (response.resultCode === 0) {
               this.registResult = true;
               resolve(response);
-              console.log('succes');
               this.router.navigate(['login']);
               return;
             }

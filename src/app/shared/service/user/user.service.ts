@@ -496,7 +496,7 @@ getUserInformations() {
         }).subscribe(success => {
           if(success)
           {
-            console.log("Success ",success)
+            // console.log("Success ",success)
             if(success.resultCode==0)
             {
               resolve(this.parseDataFromApi(success.result));
